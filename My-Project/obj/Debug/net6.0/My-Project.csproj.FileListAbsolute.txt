@@ -1,0 +1,15 @@
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\bin\Debug\net6.0\My-Project.exe
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\bin\Debug\net6.0\My-Project.deps.json
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\bin\Debug\net6.0\My-Project.runtimeconfig.json
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\bin\Debug\net6.0\My-Project.dll
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\bin\Debug\net6.0\My-Project.pdb
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.csproj.AssemblyReference.cache
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.GeneratedMSBuildEditorConfig.editorconfig
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.AssemblyInfoInputs.cache
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.AssemblyInfo.cs
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.csproj.CoreCompileInputs.cache
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.dll
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\refint\My-Project.dll
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.pdb
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\My-Project.genruntimeconfig.cache
+H:\Sree40738363\CheckList\CheckList1\My-Project\My-Project\obj\Debug\net6.0\ref\My-Project.dll
