@@ -37,10 +37,7 @@ jobs:
       run: dotnet publish --configuration Release --output ./output  # Publishes the project
 
     - name: Upload build artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3  # Updated to v3
       with:
         name: PopulationReport
         path: ./output  # Uploads the published output as a build artifact
-
-  # Optionally, you can add deployment steps here if necessary for deployment
-  # For example, deploying to Azure or AWS could be added in a new job.
