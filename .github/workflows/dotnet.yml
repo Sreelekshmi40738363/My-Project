@@ -22,13 +22,13 @@ jobs:
         dotnet-version: '7.0'
 
     - name: Restore dependencies
-      run: dotnet restore ./My-Project/PopulationReport.sln  # Specify path to solution file
+      run: dotnet restore ./PopulationReport.sln  # Correct path to the solution file
 
-    - name: Build project
-      run: dotnet build ./My-Project/PopulationReport.sln --configuration Release  # Specify path to solution file
+    - name: Build the project
+      run: dotnet build ./PopulationReport.sln --configuration Release  # Correct path to the solution file
 
     - name: Run tests
-      run: dotnet test ./My-Project/PopulationReport.sln --configuration Release  # Specify path to solution file
+      run: dotnet test ./PopulationReport.sln --configuration Release  # Correct path to the solution file
 
     - name: Publish the application
-      run: dotnet publish ./My-Project/PopulationReport.sln --configuration Release --output ./output  # Specify path to solution file
+      run: dotnet publish ./PopulationReport.sln --configuration Release --output ./output  # Correct path to the solution file
