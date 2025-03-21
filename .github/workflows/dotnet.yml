@@ -25,10 +25,10 @@ jobs:
           dotnet-version: '8.0'
 
       - name: Restore dependencies
-        run: dotnet restore PopulationReport/PopulationReport.sln
+        run: dotnet restore PopulationReport.sln
 
       - name: Build project
-        run: dotnet build PopulationReport/PopulationReport.sln --no-restore --configuration Release
+        run: dotnet build PopulationReport.sln --no-restore --configuration Release
 
       - name: Run Tests
-        run: dotnet test PopulationReport/PopulationReport.sln --no-build --verbosity normal
+        run: dotnet test PopulationReport.sln --no-build --verbosity normal
