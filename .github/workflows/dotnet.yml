@@ -1,43 +1,5 @@
-name: .NET Build and Test
-
-# Trigger the workflow on push or pull request events
-on:
-  push:
-    branches:
-      - main  # Runs on push to the main branch
-  pull_request:
-    branches:
-      - main  # Runs on pull request targeting the main branch
-
-# Job to build, test, and publish the application
-jobs:
-  build:
-    runs-on: ubuntu-latest  # You can choose another OS, like windows-latest, if you prefer
-
-    # Steps to execute in the job
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2  # Checkout the code from the repository
-
-    - name: Set up .NET SDK
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: '7.0'  # Replace with the desired version (e.g., '6.0' or '7.0')
-
-    - name: Restore dependencies
-      run: dotnet restore  # Restores the NuGet dependencies
-
-    - name: Build project
-      run: dotnet build --configuration Release  # Builds the project in Release mode
-
-    - name: Run tests
-      run: dotnet test --configuration Release  # Runs unit tests in Release mode
-
-    - name: Publish the application
-      run: dotnet publish --configuration Release --output ./output  # Publishes the project
-
-    - name: Upload build artifact
-      uses: actions/upload-artifact@v3  # Updated to v3
-      with:
-        name: PopulationReport
-        path: ./output  # Uploads the published output as a build artifact
+- name: Upload build artifact
+  uses: actions/upload-artifact@v2  # Use v2 here
+  with:
+    name: PopulationReport
+    path: ./output  # Uploads the published output as a build artifact
